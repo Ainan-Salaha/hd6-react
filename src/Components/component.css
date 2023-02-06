@@ -1,0 +1,36 @@
+.navbar,
+.foam {
+    width: 90%;
+    margin: 10px auto 0px auto;
+    padding: 15px;
+    border-radius: 10px;
+    justify-content: space-around;
+    font-size: 2rem;
+    box-shadow: 2px 2px 5px rgb(100, 99, 99);
+    background-color: plum;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    padding: 5px 30px;
+    border-radius: 10px
+}
+
+.link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: background-color .5s;
+    color: purple;
+
+}
+
+ul li {
+    all: unset;
+}
+
+.home,
+.contact {
+    padding: 70px;
+    font-size: 3rem;
+}
+

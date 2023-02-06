@@ -1,0 +1,108 @@
+.table{
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+table{
+    width: 100%;
+    font-size: 1.5em;
+    border-spacing: 1px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+thead{
+    font-size: 1.5em;
+    text-align: center;
+    text-shadow: 2px 2px 4px peru;
+    }
+tr{
+    text-align: center;
+}
+td{
+    padding: 5px 20px;
+    color: purple;
+}
+#edit{
+    all: unset;
+}
+#edit:hover{
+    font-size: 2rem;
+    color: purple;
+}
+
+#name{
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px gainsboro;
+    
+}
+.add{
+    all: unset;
+}
+.btn{
+    all: unset;
+    font-size: 1.8rem;
+    padding: 5px 30px;
+    background-color:rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+    margin-left: 1000px;
+    color:whitesmoke;
+    background-color: purple;
+}
+.btn:hover{
+    background-color:rgba(255, 255, 255, 0.4);
+    color: purple;
+    background-color: white;
+    transition: background-color .5s;
+    font-weight: bolder;
+}
+/* Edit Css  and AddNewstudent Css Start*/
+
+
+.foam{
+    width: 80%;
+    margin: 10px auto 0px auto; 
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: space-around;
+    font-size: 2rem;
+    box-shadow: 2px 2px 5px rgb(100, 99, 99);
+    background-color: plum;
+    color: purple;
+}
+#text{
+    color: purple;
+    margin-left: 400px;
+}
+.inputbox{
+    color: purple;
+    font-size: 1.5rem;
+}
+.ib1{
+    margin-left: 20px;
+}
+.ib2{
+    margin-left: 45px;
+}
+.ib4{
+    margin-left: 15px;
+}
+.btn_cancel , .btn_submit {
+    all: unset;
+    font-size: 1.8rem;
+    padding: 5px 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    cursor: pointer;
+    color: purple;
+    background-color: whitesmoke;
+}
+.btn_cancel:hover,.btn_submit:hover {
+    background-color:rgba(255, 255, 255, 0.4);
+    color: white;
+    background-color: purple;
+    width: 200px;
+    text-align: center;
+}
